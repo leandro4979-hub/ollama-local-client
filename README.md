@@ -1,5 +1,11 @@
 # Ollama Local Client
 
+[![CI](https://github.com/leandro4979-hub/ollama-local-client/actions/workflows/ci.yml/badge.svg)](https://github.com/leandro4979-hub/ollama-local-client/actions/workflows/ci.yml)
+[![Swift](https://img.shields.io/badge/Swift-6-orange.svg)](https://www.swift.org/)
+[![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-blue.svg)](https://www.apple.com/macos/)
+[![Ollama](https://img.shields.io/badge/Ollama-local%20only-black.svg)](https://ollama.com/)
+[![License](https://img.shields.io/github/license/leandro4979-hub/ollama-local-client.svg)](LICENSE)
+
 A narrow Swift 6 client for one local Ollama boundary:
 
 - endpoint: `http://127.0.0.1:11434`
@@ -37,6 +43,11 @@ printf '%s\n' 'Explain Swift actors.' | swift run ollama-local ask
 
 Model output is untrusted text. This package has no action executor. See
 [SECURITY.md](SECURITY.md) for reporting and supported security boundaries.
+
+## Contributing
+
+Contributions are welcome when they preserve the fixed local boundary. Read
+[CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or pull request.
 
 ## License
 
